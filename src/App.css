@@ -1,0 +1,49 @@
+.tiny:hover {
+  border: 3px solid hsl(26, 100%, 55%);
+  background-color: wheat;
+}
+
+.tiny:focus-within {
+  border: 3px solid hsl(26, 100%, 55%);
+}
+
+.cart {
+  background-color: hsl(26, 100%, 55%) !important;
+  border: hsl(26, 100%, 55%) !important;
+}
+
+.txt {
+  color: hsl(26, 100%, 55%);
+  animation-delay: 1s;
+}
+
+.txt2 {
+  animation-delay: 1.5s;
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.8s linear forwards;
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ### Primary
+
+- Orange: hsl(26, 100%, 55%)
+- Pale orange: hsl(25, 100%, 94%)
+
+### Neutral
+
+- Very vark blue: hsl(220, 13%, 13%)
+- Dark grayish blue: hsl(219, 9%, 45%)
+- Grayish blue: hsl(220, 14%, 75%)
+- Light grayish blue: hsl(223, 64%, 98%)
+- White: hsl(0, 0%, 100%)
+- Black (with 75% opacity for lightbox background): hsl(0, 0%,  */
